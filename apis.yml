@@ -1,7 +1,30 @@
 aid: thg
-name: thg
-description: thg is a company surfaced as a portfolio company of balderton-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thg.png
+name: THG
+description: >-
+  THG plc (formerly The Hut Group) is a UK-based consumer brands group founded
+  in 2004 in Manchester and listed on the London Stock Exchange. Following the
+  2025 demerger of its Ingenuity technology and fulfilment division, THG is a
+  pure-play consumer brands business operating two divisions: THG Beauty (home
+  to Lookfantastic, Cult Beauty, Dermstore and prestige brand partners) and THG
+  Nutrition (led by Myprotein, one of the world's largest online sports-nutrition
+  brands). THG designs, manufactures and sells beauty and nutrition products
+  direct-to-consumer across global markets. It was surfaced in the API Evangelist
+  network as a portfolio company of Balderton Capital, an early investor. THG
+  operates corporate, investor-relations and careers web properties but publishes
+  no public developer API, developer portal, or API documentation; this profile
+  captures its identity and a live domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/thg/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- E-commerce
+- Consumer Brands
+- Beauty
+- Nutrition
+- Retail
+- Direct-to-Consumer
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.thg.com/
+- type: Blog
+  url: https://www.thg.com/news
+- type: PrivacyPolicy
+  url: https://www.thg.com/privacy-policy
+- type: DomainSecurity
+  url: security/thg-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
